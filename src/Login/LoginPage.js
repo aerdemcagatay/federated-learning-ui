@@ -51,6 +51,7 @@ export default class LoginPage extends React.Component {
                             method: 'POST',
                             body: data
                         });
+                        window.location.reload();
                     }                
                 }
             );        
